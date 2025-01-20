@@ -59,7 +59,7 @@ function App() {
           }}
         >
           <img 
-            src="../assets/img/logo.svg" 
+            src="./assets/img/logo.svg" 
             alt="Logo"
             className="mx-auto w-64 h-64 sm:w-80 sm:h-80 rounded-none object-contain"
           />
