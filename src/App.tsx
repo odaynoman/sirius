@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Linkedin, Instagram, Sparkles } from 'lucide-react';
+import logo from '../assets/img/logo.svg';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -59,7 +60,7 @@ function App() {
           }}
         >
           <img 
-            src="./assets/img/logo.svg" 
+            src={logo} 
             alt="Logo"
             className="mx-auto w-64 h-64 sm:w-80 sm:h-80 rounded-none object-contain"
           />
