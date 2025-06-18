@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Linkedin, Instagram, Sparkles } from 'lucide-react';
-import logo from '../assets/img/logo.svg';
-
+import logo from '../assets/img/logo.svg'; 
+ 
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [logoPosition, setLogoPosition] = useState({ x: 0, y: 0 });
   const [textPosition, setTextPosition] = useState({ x: 0, y: 0 });
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleMouseMove = (e: MouseEvent) => {
       const { clientX, clientY } = e;
       setMousePosition({ x: clientX, y: clientY });
