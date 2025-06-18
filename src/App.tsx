@@ -24,7 +24,7 @@ function App() {
         x: logoDistanceX * 10, // max 10px movement
         y: logoDistanceY * 10
       });
-
+ 
       // Text movement (make it more subtle)
       const textDistanceX = (clientX - centerX) / maxDistance;
       const textDistanceY = (clientY - centerY) / maxDistance;
@@ -41,7 +41,7 @@ function App() {
   const gradientStyle = {
     background: `radial-gradient(circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(211, 211, 211, 0.08), transparent 40%)`,
   };
-
+ 
   return (
     <div className="relative min-h-screen overflow-hidden" style={{ backgroundColor: '#1C2626', color: '#D3D3D3' }}>
       <div
